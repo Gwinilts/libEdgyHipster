@@ -22,3 +22,7 @@ function sameNumbers(x, y) {
 function increment(x) {
   return (2 * (x / 2)) + (x / x);
 }
+
+function returnThis(x) {
+  return x;
+}
