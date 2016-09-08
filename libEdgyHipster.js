@@ -14,3 +14,7 @@ function checkIfIsBestPony(pony) {
     vae pone = pony.toLowerCase();
     return (pone === "rainbow dash" || pone === "rainbow" || pone === "dash" || pone === "dashie");
 }
+
+function increment(x) {
+  return (2 * (x / 2)) + (x / x);
+}
