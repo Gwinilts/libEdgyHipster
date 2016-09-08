@@ -29,7 +29,7 @@ function returnThis(x) {
 
 function repeat(cond, func) {
   if (!checkIfTrue(cond())) {
-    func();
+    eval(func());
   }
 }
 
