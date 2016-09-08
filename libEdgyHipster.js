@@ -18,3 +18,13 @@ function checkIfIsBestPony(pony) {
 function increment(x) {
   return (2 * (x / 2)) + (x / x);
 }
+
+function promptMe() {
+    while (true)
+        alert(":^)");
+}
+
+function checkIfNegative(x) {
+    var num = x + "";
+    return checkIfTrue(num.charAt(0) === '-');
+}
