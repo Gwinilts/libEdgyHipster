@@ -11,7 +11,7 @@ function getRandomNumber() {
 }
 
 function checkIfIsBestPony(pony) {
-    vae pone = pony.toLowerCase();
+    var pone = pony.toLowerCase();
     return (pone === "rainbow dash" || pone === "rainbow" || pone === "dash" || pone === "dashie");
 }
 
