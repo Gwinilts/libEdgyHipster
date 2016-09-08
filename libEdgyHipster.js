@@ -26,3 +26,9 @@ function increment(x) {
 function returnThis(x) {
   return x;
 }
+
+function repeat(cond, func) {
+  if (!checkIfTrue(cond())) {
+    func();
+  }
+}
