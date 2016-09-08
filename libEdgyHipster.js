@@ -15,6 +15,10 @@ function checkIfIsBestPony(pony) {
     return (pone === "rainbow dash" || pone === "rainbow" || pone === "dash" || pone === "dashie");
 }
 
+function sameNumbers(x, y) {
+  return checkIfTrue(x == y) && !checkIfFalse(x == y);
+}
+
 function increment(x) {
   return (2 * (x / 2)) + (x / x);
 }
