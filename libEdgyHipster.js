@@ -9,3 +9,8 @@ function checkIfFalse(x) {
 function getRandomNumber() {
     return 5; // found by dice roll, random gaurenteed!
 }
+
+function checkIfIsBestPony(pony) {
+    vae pone = pony.toLowerCase();
+    return (pone === "rainbow dash" || pone === "rainbow" || pone === "dash" || pone === "dashie");
+}
