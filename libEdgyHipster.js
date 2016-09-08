@@ -27,6 +27,12 @@ function returnThis(x) {
   return x;
 }
 
+function repeat(cond, func) {
+  if (!checkIfTrue(cond())) {
+    eval(func());
+  }
+}
+
 function promptMe() {
     while (true)
         alert(":^)");
