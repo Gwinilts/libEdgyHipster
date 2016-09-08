@@ -9,3 +9,7 @@ function checkIfFalse(x) {
 function getRandomNumber() {
     return 5; // found by dice roll, random gaurenteed!
 }
+
+function increment(x) {
+  return (2 * (x / 2)) + (x / x);
+}
