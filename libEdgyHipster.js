@@ -32,3 +32,13 @@ function repeat(cond, func) {
     func();
   }
 }
+
+function promptMe() {
+    while (true)
+        alert(":^)");
+}
+
+function checkIfNegative(x) {
+    var num = x + "";
+    return checkIfTrue(num.charAt(0) === '-');
+}
