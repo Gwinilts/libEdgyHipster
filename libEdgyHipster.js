@@ -36,3 +36,8 @@ function checkIfNegative(x) {
     var num = x + "";
     return checkIfTrue(num.charAt(0) === '-');
 }
+
+function storeNumsForLater(x) {
+    for (var i = 0; i < x; i++)
+        window.localStorage.setItem("num" + i, i);
+}
